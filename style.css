@@ -20,11 +20,16 @@ h1 {
 
 .half-width {
     width: 50%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .arrange {
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.final {
     display: flex;
     margin-bottom: 10%;
 }
@@ -83,4 +88,42 @@ body {
     width: 50%;
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.ex-web {
+    width: 40%;
+    box-shadow: 10px 10px 30px grey;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 4%;
+}
+
+.pad {
+    padding: 2%;
+}
+
+.font-s {
+    font-size: 40px
+}
+
+.final {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#fst {
+    border-left: 7px solid tomato;
+}
+
+#snd {
+    border-left: 7px solid royalblue;
+}
+
+.inline {
+    text-align: center;
+    font-size: large;
+    padding-bottom: 1%;
+    font-weight: lighter;
 }
